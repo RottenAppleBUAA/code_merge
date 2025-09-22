@@ -1,0 +1,1 @@
+该仓库仅用于代码合并，把mappo_rnn_neighbor_embed_mpe.py和simple_coverage_v6.py中的内容合并到free-rl的框架中，基于free-rl提供的mappo框架来实现，要保留ac网络中做出修改的特殊结构，以及环境文件中的动作、观测和奖励设计，在readme.md文件中写下详细的任务描述并列出todo list
