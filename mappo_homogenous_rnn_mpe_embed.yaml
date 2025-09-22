@@ -1,0 +1,44 @@
+"LR": 2e-3
+"NUM_ENVS": 16
+"NUM_STEPS": 128
+"TOTAL_TIMESTEPS": 1e6
+"FC_DIM_SIZE": 128
+"GRU_HIDDEN_DIM": 128
+"UPDATE_EPOCHS": 4
+"NUM_MINIBATCHES": 4
+"GAMMA": 0.99
+"GAE_LAMBDA": 0.95
+"CLIP_EPS": 0.2
+"SCALE_CLIP_EPS": True
+"ENT_COEF": 0.01
+"VF_COEF": 0.5
+"MAX_GRAD_NORM": 0.5
+"ACTIVATION": "tanh"
+"ENV_NAME": "MPE_simple_coverage_v6"
+"SEED": 1
+"NUM_SEEDS": 2
+"ENV_KWARGS": {}
+"ANNEAL_LR": True
+"DISABLE_JIT": False
+
+# Env Params
+"EMBED_DIM": 128
+"LOCAL_DIM": 8
+"MAX_NEIGHBORS": 9
+"NEI_FEAT_DIM": 2
+
+# WandB Params
+# WANDB_MODE: "online", "offline", "disabled"
+"WANDB_MODE": "disabled"
+"ENTITY": "rottenapplebuaa-beihang-university"
+"PROJECT": "JaxMARL-Coverage-MAPPO"
+
+# Saving Params
+"PRINT_INTERVAL_UPDATES": 20
+"SAVE_MODEL": True
+"SAVE_MODEL_INTERVAL": 200
+"MODEL_SAVE_PATH": "./jaxmarl_checkpoints"
+
+"LOAD_MODEL": False
+"LOAD_MODEL_BASE_PATH": "E:\\SmallRepos\\JaxMARL\\jaxmarl_checkpoints\\MPE_simple_coverage_v4_MAPPO_RNN_seed1_ay4eakk5\\3800"
+"WANDB_RESUME_ID": ""
